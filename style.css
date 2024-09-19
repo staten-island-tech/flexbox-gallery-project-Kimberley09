@@ -1,16 +1,16 @@
-html, body, 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-size:62.5%;
-}
-
-.parent {
-    font-size: 200 px;
-}
-
-.sigma {
-    border: 400px solid black;
-
-}
+div {
+    width: 100px;
+    height: 80px;
+    padding: 10px;
+    border: 8px solid pink;
+    background: blue;
+  }
+  
+  .content-box {
+    box-sizing: content-box;
+    /* Total width: 160px + (2 * 20px) + (2 * 8px) = 216px
+       Total height: 80px + (2 * 20px) + (2 * 8px) = 136px
+       Content box width: 160px
+       Content box height: 80px */
+  }
+  
