@@ -1,16 +1,36 @@
-div {
-    width: 100px;
-    height: 80px;
-    padding: 10px;
-    border: 8px solid pink;
-    background: blue;
-  }
-  
-  .content-box {
-    box-sizing: content-box;
-    /* Total width: 160px + (2 * 20px) + (2 * 8px) = 216px
-       Total height: 80px + (2 * 20px) + (2 * 8px) = 136px
-       Content box width: 160px
-       Content box height: 80px */
-  }
-  
+body {
+    font-family: 'Lucida Console', 'Courier New', monospace;
+    background-color: #f4ddf9;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+ }
+ 
+ .heading{
+    margin:20px;
+    size: 40px
+
+ }
+ .parent {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    margin:1rem suto;
+    align-items: stretch;
+    border: 20px;
+    display: flex
+ }
+ 
+ .card{
+    width: 20%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top:2 2 rem 0 rem;
+    margin-bottom: 10 rem;
+    border-radius: 50 px;
+
+
+ }
