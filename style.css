@@ -1,2 +1,16 @@
+body {
+    font-family: 'Lucida Console', 'Courier New', monospace;
+    background-color: #f4ddf9; 
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
 
-  
+.parent {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    margin:1rem suto;
+    align-items: stretch;
+}
