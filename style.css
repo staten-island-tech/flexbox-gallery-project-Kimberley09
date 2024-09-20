@@ -1,5 +1,6 @@
 body {
     font-family: 'Lucida Console', 'Courier New', monospace;
+<<<<<<< HEAD
     background-color: #f4ddf9;
     margin: 0;
     padding: 0;
@@ -12,12 +13,22 @@ body {
 
  }
  .parent {
+=======
+    background-color: #f4ddf9; 
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.parent {
+>>>>>>> 3b5ab18fced5da42a2a08e2c635b8e529b0e2341
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-wrap:wrap;
     margin:1rem suto;
     align-items: stretch;
+<<<<<<< HEAD
     border: 20px;
     display: flex
  }
@@ -34,3 +45,6 @@ body {
 
 
  }
+=======
+}
+>>>>>>> 3b5ab18fced5da42a2a08e2c635b8e529b0e2341
