@@ -4,11 +4,14 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
  }
  
  .heading{
-    margin:20px;
-    size: 40px
+    margin:50px;
+    size: 40px;
 
  }
  .parent {
@@ -16,24 +19,25 @@ body {
     align-items: center;
     justify-content: space-evenly;
     flex-wrap:wrap;
-    margin:1rem suto;
+    margin: 100px;
     align-items: stretch;
     border: 20px;
-    display: flex
+    padding: 20px;
+    gap: 20px;
+    width: 80vw;
  }
  
  .card{
     width: 20%;
     height: 20%;
+    justify-content: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     margin-top:2 2 rem 0 rem;
     margin-bottom: 10 rem;
     border-radius: 50 px;
-    border: 20 px black
-   
-
-
+    text-align: center;
+    box-shadow: 0 4px 8px rgba (0, 0, 0, 0.1);
+    padding: 30px;
 
  }
