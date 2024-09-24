@@ -8,7 +8,7 @@
 body {
    font-family: 'Poppins', sans-serif;
    background-color: rgb(249, 213, 219);
-   padding: 20px;
+   padding: 1.25rem;
 }
 .gallery-title {
    font-size: 2.5rem;
@@ -22,7 +22,7 @@ body {
 .gallery-container {
    display: flex;
    flex-wrap: wrap;
-   justify-content: space-between;
+   justify-content: center;
    align-items: flex-start;
    gap: 20px;
    padding: 20px;
@@ -31,11 +31,12 @@ body {
 
 .card {
    background-color: pink;
-   width: calc(25% - 20px); /* Make each card take up 1/4th of the container with a gap */
+   flex: 1 1 23%; 
    padding: 15px;
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
    border-radius: 8px;
    text-align: center;
+   height: 700px;
 }
 
 
