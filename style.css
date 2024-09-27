@@ -2,6 +2,7 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
+   font-size: 10px
 }
 
 
@@ -13,7 +14,7 @@ body {
 .gallery-title {
    font-size: 2.5rem;
    font-weight: 600;
-   color: #333;
+   color: #000000;
    margin-bottom: 40px;
    text-align: center;
 }
@@ -49,37 +50,32 @@ body {
 
 
 .card h3 {
-   font-size: 1.2rem;
+   font-size: 10px;
    margin: 15px 0 10px;
 }
 
 
 .card p {
-   font-size: 1rem;
-   color: #727272;
+   font-size: 10px;
+   color: #000000;
 }
 
 .card:hover {
    transform:scale(1.05);
    box-shadow:0 8px 16px black;
    background-color: pink;
-   transform: rotate(40deg);
+   transform: rotate(10deg);
 }
 
-@media (max-width: 992px) {
-   .gallery-container {
-      grid-template-columns: repeat(2, 1fr);
-   }
-}
-
-@media (max-width: 768px) {
-   .gallery-container {
-      grid-template-columns: repeat(2, 1fr);
-   }
-}
-
-@media (max-width: 576px) {
-   .gallery-container {
-      grid-template-columns: 1fr;
+@media screen and (max-width: 850px){
+   .card {
+      background-color: pink;
+      flex: 1 1 23%; 
+      padding: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      text-align: center;
+      height: 700px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s
    }
 }
